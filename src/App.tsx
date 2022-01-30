@@ -4,7 +4,12 @@ import Player from "./components/Player";
 interface PlayerProps {
   [key: string]: number;
 }
-
+// for many players create a new object with the same key and value
+// for example:
+// const playerScore = {
+//   Benjamin: 0,
+//   Alex: 0,
+// };
 function App() {
   const [playerScore, resetPlayerScore] = useState<PlayerProps>({
     Benjamin: 0,
