@@ -1,1 +1,1 @@
-# Question 1 [CLOSED]
+# Question 1 [SOLVED]
